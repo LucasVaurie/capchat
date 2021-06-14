@@ -1,0 +1,83 @@
+body {
+    padding: 2.5% 10%;
+    background-color:#a7c3f3eb;
+}
+
+.intro {
+    text-align:center;
+}
+
+.zone-principale {
+    border:5px solid #929292;
+    border-radius:25px;
+}
+
+.capchat {
+    background-color: gainsboro;
+    border-radius: 19px 0 0 19px;
+    padding:15px;
+}
+
+.div-compteur {
+    background-color: white;
+    border-radius: 0 19px 19px 0;
+    padding:15px;
+}
+
+.final-screen {
+    background-color:white;
+    padding: 2.5%;
+    text-align: center;
+}
+
+.fin {
+    margin:1%;
+}
+
+.alert-warning, .alert-success {
+    font-size: 1.5em;
+    padding: 2.5%;
+    text-align: center;
+}
+
+.opt {
+    margin:2;
+}
+
+.opt a {
+    width:100%;
+}
+
+#explication {
+    font-weight:bold;
+}
+
+#indice {
+    text-align:center;
+    font-weight:bold;
+    font-style: italic;
+    font-size:1.5em;
+}
+
+.img-capchat {
+    margin:auto;
+    max-width:100%;
+}
+
+#horloge {
+    border:2px solid #929292;
+    margin-left:12.5%;
+    border-radius: 25px 25px 0 0;
+}
+
+#temps {
+    width:79px;
+    height:42px;
+    margin-left:12.5%;
+    border-radius: 0 0 25px 25px;
+    background-color:#929292;
+    color:rgb(255, 255, 255);
+    font-size:1.5em;
+    text-align:center;
+    font-weight:bold;
+}

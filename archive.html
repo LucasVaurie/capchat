@@ -1,0 +1,70 @@
+<div class='intro'>
+    <h1>Cap'Chat</h1>
+    <p>Le but de ce projet est de créer le prototype d’un générateur de captcha dynamique. Ce captcha affiche une série d’images originales parmi lesquelles
+        on distingue des images ‘neutres’ et une image ‘singulière’. À chaque image singulière est associé une question ou un indice unique permettant de
+        l’identifier. Un thermomètre dynamique décompte 30 secondes pour y répondre. L’écoulement du délai provoque le rechargement de Cap’Chat.
+        À chaque échec ou délai dépassé, le délai imparti est réduit de cinq secondes.</p>
+    <p>Le projet est programmé à l'aide du framework <i>NodeJS</i>, de <i>HTML</i>, de <i>CSS</i>, et de <i>Javascript</i> dans le cadre d'une Licence Informatique (Module Systèmes d'information web)</p>
+    <p>Par Lucas Vaurie - 2021</p>
+</div>
+<div class='container zone-principale'>
+    <div class='row contenu-global'>
+        <div class='col capchat'>
+            <p id='explication'></p>
+            <p id='consigne'></p>
+            <p id='indice'></p>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                        <img class='img-capchat' src='#'>
+                    </a></div>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                    <div class='col opt'>
+                        <a href='#' onclick='validation(event)'>
+                            <img class='img-capchat' src='#'>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-3 div-compteur'>
+            <p>Temps restant :</p>
+            <div class='bloc-horloge'>
+                <canvas id='horloge' width='75' height='350'></canvas>
+                <div id='temps'></div>
+            </div>
+        </div>
+    </div>
+</div>
